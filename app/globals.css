@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-source-sans: 'Source Sans 3', sans-serif;
+  --primary-slate: #2E4C6D;
+  --bg-ivory: #FAF8F3;
+  --accent-gold: #C9A227;
+  --trust-green: #3E7C59;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAF8F3;
+  color: #1e3147;
+  font-family: var(--font-source-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* Custom illustrated photo-card aesthetic */
+.photo-card-frame {
+  position: relative;
+  background: linear-gradient(145deg, #ffffff 0%, #FAF8F3 100%);
+  border: 1px solid rgba(46, 76, 109, 0.12);
+  border-radius: 1.5rem;
+  box-shadow: 0 16px 40px -10px rgba(46, 76, 109, 0.12), 0 0 0 1px rgba(201, 162, 39, 0.15);
+  overflow: hidden;
+}
+
+.photo-card-gradient {
+  background: radial-gradient(circle at 50% 30%, #e1ebf4 0%, #2E4C6D 100%);
+}
+
+.gold-gradient-badge {
+  background: linear-gradient(135deg, #C9A227 0%, #a8851b 100%);
+}
+
+.trust-green-badge {
+  background: linear-gradient(135deg, #3E7C59 0%, #2e5d42 100%);
+}
+
+/* WordPress Classic Theme Header Utility Strip */
+.top-nav-bar {
+  background-color: #2E4C6D;
+  color: #ffffff;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #2E4C6D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1e3147;
+}
