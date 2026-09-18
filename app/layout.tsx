@@ -17,6 +17,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dr-rajeshwari-sharma.vercel.app"),
   title: "Dr. Rajeshwari Sharma | Senior Consultant Physician in Jaipur (Internal Medicine)",
   description: "Dr. Rajeshwari Sharma (MD, FICP, FACP) is a leading Senior Consultant Physician in Jaipur, specializing in Diabetes Management, Hypertension, Thyroid Disorders, Geriatric Care, and Preventive Internal Medicine.",
   keywords: [
